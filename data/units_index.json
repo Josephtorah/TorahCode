@@ -1,0 +1,685 @@
+{
+ "_note": "The derived units of this project: each is a contiguous verse span whose content was derived under the method laws and frozen. Dependency proofs resolve backward edges against these spans. Full derivations in units/.",
+ "count": 97,
+ "units": [
+  {
+   "unit_id": "exo_01_names_and_midwives",
+   "book": "Exodus",
+   "refs": "1:1-22",
+   "title": "The names and the midwives (1:1-22)",
+   "genre": "narrative_fsm"
+  },
+  {
+   "unit_id": "exo_02_drawn_from_the_water",
+   "book": "Exodus",
+   "refs": "2:1-25",
+   "title": "Drawn from the water (2:1-25)",
+   "genre": "narrative_fsm"
+  },
+  {
+   "unit_id": "exo_03_bush_and_name",
+   "book": "Exodus",
+   "refs": "3:1-22",
+   "title": "The bush and the Name (3:1-22)",
+   "genre": "narrative_fsm"
+  },
+  {
+   "unit_id": "exo_04_signs_and_firstborn",
+   "book": "Exodus",
+   "refs": "4:1-31",
+   "title": "The signs and the firstborn (4:1-31)",
+   "genre": "narrative_fsm"
+  },
+  {
+   "unit_id": "exo_05_bricks_without_straw",
+   "book": "Exodus",
+   "refs": "5:1-23",
+   "title": "Bricks without straw (5:1-23)",
+   "genre": "narrative_fsm"
+  },
+  {
+   "unit_id": "exo_06_i_am_the_lord",
+   "book": "Exodus",
+   "refs": "6:1-30",
+   "title": "I am the LORD (6:1-30)",
+   "genre": "narrative_fsm"
+  },
+  {
+   "unit_id": "exo_07_staff_and_blood",
+   "book": "Exodus",
+   "refs": "7:1-29",
+   "title": "The staff and the blood (7:1-29)",
+   "genre": "narrative_fsm"
+  },
+  {
+   "unit_id": "exo_08_frogs_lice_swarms",
+   "book": "Exodus",
+   "refs": "8:1-28",
+   "title": "Frogs, lice, swarms (8:1-28)",
+   "genre": "narrative_fsm"
+  },
+  {
+   "unit_id": "exo_09_pestilence_boils_hail",
+   "book": "Exodus",
+   "refs": "9:1-35",
+   "title": "Pestilence, boils, hail (9:1-35)",
+   "genre": "narrative_fsm"
+  },
+  {
+   "unit_id": "exo_10_locusts_and_darkness",
+   "book": "Exodus",
+   "refs": "10:1-29",
+   "title": "Locusts and darkness (10:1-29)",
+   "genre": "narrative_fsm"
+  },
+  {
+   "unit_id": "exo_11_one_more_plague",
+   "book": "Exodus",
+   "refs": "11:1-10",
+   "title": "One plague more (11:1-10)",
+   "genre": "narrative_fsm"
+  },
+  {
+   "unit_id": "exo_12_passover_and_exodus",
+   "book": "Exodus",
+   "refs": "12:1-51",
+   "title": "The passover and the exodus (12:1-51)",
+   "genre": "narrative_fsm"
+  },
+  {
+   "unit_id": "exo_13_consecration_and_pillars",
+   "book": "Exodus",
+   "refs": "13:1-22",
+   "title": "Consecration and pillars (13:1-22)",
+   "genre": "narrative_fsm"
+  },
+  {
+   "unit_id": "exo_14_the_sea_splits",
+   "book": "Exodus",
+   "refs": "14:1-31",
+   "title": "The sea splits (14:1-31)",
+   "genre": "narrative_fsm"
+  },
+  {
+   "unit_id": "exo_15_the_song_and_marah",
+   "book": "Exodus",
+   "refs": "15:1-27",
+   "title": "The Song and Marah (15:1-27)",
+   "genre": "song_and_station_fsm"
+  },
+  {
+   "unit_id": "exo_16_manna_and_sabbath",
+   "book": "Exodus",
+   "refs": "16:1-36",
+   "title": "The manna and the Sabbath (16:1-36)",
+   "genre": "provision_law_fsm"
+  },
+  {
+   "unit_id": "exo_17_massah_and_amalek",
+   "book": "Exodus",
+   "refs": "17:1-16",
+   "title": "Massah-Meribah and Amalek (17:1-16)",
+   "genre": "thirst_and_war_fsm"
+  },
+  {
+   "unit_id": "exo_18_jethro_and_the_judges",
+   "book": "Exodus",
+   "refs": "18:1-27",
+   "title": "Jethro and the judges (18:1-27)",
+   "genre": "counsel_and_courts_fsm"
+  },
+  {
+   "unit_id": "exo_19_sinai_and_the_covenant",
+   "book": "Exodus",
+   "refs": "19:1-25",
+   "title": "Sinai and the covenant (19:1-25)",
+   "genre": "covenant_theophany_fsm"
+  },
+  {
+   "unit_id": "exo_20_the_ten_utterances",
+   "book": "Exodus",
+   "refs": "20:1-26",
+   "title": "The Ten Utterances (20:1-26)",
+   "genre": "decalogue_statute_code"
+  },
+  {
+   "unit_id": "exo_21_the_ordinances",
+   "book": "Exodus",
+   "refs": "21:1-37",
+   "title": "The ordinances (21:1-37)",
+   "genre": "casuistic_law_code"
+  },
+  {
+   "unit_id": "gen_01_creation_boot",
+   "book": "Genesis",
+   "refs": "1:1-5",
+   "title": "Genesis boot: create world, light, separate, name, day one (1:1-5)",
+   "genre": "narrative_boot"
+  },
+  {
+   "unit_id": "gen_02_raqia_day",
+   "book": "Genesis",
+   "refs": "1:6-8",
+   "title": "Day two: firmament — build, divide, name; commit without test (1:6-8)",
+   "genre": "narrative_boot"
+  },
+  {
+   "unit_id": "gen_03_double_build",
+   "book": "Genesis",
+   "refs": "1:9-13",
+   "title": "Day three: double build — gathering + vegetation; delegation; spec delta (1:9-13)",
+   "genre": "narrative_boot"
+  },
+  {
+   "unit_id": "gen_04_lights_calendar",
+   "book": "Genesis",
+   "refs": "1:14-19",
+   "title": "Day four: luminaries — jobs, calendar, dominion; three spec deltas (1:14-19)",
+   "genre": "narrative_boot"
+  },
+  {
+   "unit_id": "gen_05_swarms_blessing",
+   "book": "Genesis",
+   "refs": "1:20-23",
+   "title": "Day five: swarms and the blessing — LET? demands, missing receipt, bara returns, first life, first blessing (1:20-23)",
+   "genre": "narrative_boot"
+  },
+  {
+   "unit_id": "gen_06_land_adam_dominion",
+   "book": "Genesis",
+   "refs": "1:24-31",
+   "title": "Day six: land classes, the adam, dominion — receipts return, the council plural, bara tripled, the five-imperative bless",
+   "genre": "narrative_boot"
+  },
+  {
+   "unit_id": "gen_07_completion_sanctity",
+   "book": "Genesis",
+   "refs": "2:1-3",
+   "title": "Day seven: completion and sanctity — the open transaction (2:1-3)",
+   "genre": "narrative_boot"
+  },
+  {
+   "unit_id": "gen_08_toledot_garden_first_rule",
+   "book": "Genesis",
+   "refs": "2:4-17",
+   "title": "Eden I: toledot header, garden, first job, FIRST RULE (2:4-17)",
+   "genre": "narrative_post_boot"
+  },
+  {
+   "unit_id": "gen_09_helper_woman_first_speech",
+   "book": "Genesis",
+   "refs": "2:18-25",
+   "title": "Eden II: not-good, the helper, the woman, first human speech (2:18-25)",
+   "genre": "narrative_post_boot"
+  },
+  {
+   "unit_id": "gen_10_serpent_violation_trace",
+   "book": "Genesis",
+   "refs": "3:1-13",
+   "title": "Eden III: the serpent, the misquoted rule, the eating, the interrogation (3:1-13)",
+   "genre": "narrative_dialogue_trace"
+  },
+  {
+   "unit_id": "gen_11_sentences_exile",
+   "book": "Genesis",
+   "refs": "3:14-24",
+   "title": "Eden IV: the sentences, the skin garments, the exile (3:14-24)",
+   "genre": "narrative_verdict_close"
+  },
+  {
+   "unit_id": "gen_12_cain_abel",
+   "book": "Genesis",
+   "refs": "4:1-16",
+   "title": "Cain and Abel: first offerings, sin at the door, first murder, the mark (4:1-16)",
+   "genre": "narrative_first_cycle_outside"
+  },
+  {
+   "unit_id": "gen_13_cain_line_seth",
+   "book": "Genesis",
+   "refs": "4:17-26",
+   "title": "Cain's line and Seth: the first city, the crafts, seventy-seven, calling on the Name (4:17-26)",
+   "genre": "genealogy_with_embedded_poem"
+  },
+  {
+   "unit_id": "gen_14_adam_line_ledger",
+   "book": "Genesis",
+   "refs": "5:1-32",
+   "title": "The book of Adam's line: the death ledger and the man who walked (5:1-32)",
+   "genre": "genealogy_ledger_template"
+  },
+  {
+   "unit_id": "gen_15_flood_prologue",
+   "book": "Genesis",
+   "refs": "6:1-8",
+   "title": "The flood prologue: the stolen verdict, the 120 years, the regret, the favor (6:1-8)",
+   "genre": "narrative_verdict_prologue"
+  },
+  {
+   "unit_id": "gen_16_ark_spec",
+   "book": "Genesis",
+   "refs": "6:9-22",
+   "title": "The ark spec: the blueprint, the covenant word, the first obeyed command (6:9-22)",
+   "genre": "build_spec_in_narrative"
+  },
+  {
+   "unit_id": "gen_17_boarding",
+   "book": "Genesis",
+   "refs": "7:1-16",
+   "title": "The boarding: you have I seen righteous, the date, the shut door (7:1-16)",
+   "genre": "execution_narrative_boarding_log"
+  },
+  {
+   "unit_id": "gen_18_the_rise",
+   "book": "Genesis",
+   "refs": "7:17-24",
+   "title": "The rise: the waters lift the ark, all flesh dies, only Noach is left (7:17-24)",
+   "genre": "execution_narrative_uncreation_climax"
+  },
+  {
+   "unit_id": "gen_19_the_remembering",
+   "book": "Genesis",
+   "refs": "8:1-14",
+   "title": "The remembering: God remembers Noach, the waters go home, the earth dries (8:1-14)",
+   "genre": "reversal_narrative_uncreation_undone"
+  },
+  {
+   "unit_id": "gen_20_exit_altar",
+   "book": "Genesis",
+   "refs": "8:15-22",
+   "title": "The exit and the altar: go out, the families, the pleasing smell, never again (8:15-22)",
+   "genre": "command_and_cult_narrative_exit_covenant_prelude"
+  },
+  {
+   "unit_id": "gen_21_blessing_blood_law",
+   "book": "Genesis",
+   "refs": "9:1-7",
+   "title": "The blessing and the blood-law: be fruitful again, but the blood is Mine (9:1-7)",
+   "genre": "law_giving_blessing_frame_blood_charter"
+  },
+  {
+   "unit_id": "gen_22_covenant_bow",
+   "book": "Genesis",
+   "refs": "9:8-17",
+   "title": "The covenant and the bow: My bow I have set in the cloud (9:8-17)",
+   "genre": "covenant_speech_ring_and_ladder"
+  },
+  {
+   "unit_id": "gen_23_vineyard_curse",
+   "book": "Genesis",
+   "refs": "9:18-29",
+   "title": "The vineyard and the curse: cursed be Canaan, blessed be the LORD (9:18-29)",
+   "genre": "vineyard_narrative_with_two_human_speech_acts_and_ledger_close"
+  },
+  {
+   "unit_id": "gen_24_nations_table",
+   "book": "Genesis",
+   "refs": "10:1-32",
+   "title": "The nations table: of these the nations divided after the flood (10:1-32)",
+   "genre": "toledot_ledger_nations_table"
+  },
+  {
+   "unit_id": "gen_25_babel",
+   "book": "Genesis",
+   "refs": "11:1-9",
+   "title": "Babel: come, let us build — come, let Us go down (11:1-9)",
+   "genre": "mirrored_conspiracy_ring"
+  },
+  {
+   "unit_id": "gen_26_shem_ledger",
+   "book": "Genesis",
+   "refs": "11:10-32",
+   "title": "The deathless ledger: Shem to Terach, and the two deaths that land (11:10-32)",
+   "genre": "genealogy_ledger_template"
+  },
+  {
+   "unit_id": "gen_27_the_call",
+   "book": "Genesis",
+   "refs": "12:1-9",
+   "title": "The call: go to the land I will show you (12:1-9)",
+   "genre": "call_narrative_itinerary"
+  },
+  {
+   "unit_id": "gen_28_egypt_descent",
+   "book": "Genesis",
+   "refs": "12:10-20",
+   "title": "The descent to Egypt: the famine, the sister-word, the plagued house (12:10-20)",
+   "genre": "endangerment_narrative"
+  },
+  {
+   "unit_id": "gen_29_separation_promise",
+   "book": "Genesis",
+   "refs": "13:1-18",
+   "title": "The separation and the promise: the return, the strife, the plain, the land forever (13:1-18)",
+   "genre": "separation_narrative"
+  },
+  {
+   "unit_id": "gen_30_war_of_kings",
+   "book": "Genesis",
+   "refs": "14:1-24",
+   "title": "The war of the kings: the annal, the rescue, the priest, the refused spoils (14:1-24)",
+   "genre": "war_annal_and_rescue_narrative"
+  },
+  {
+   "unit_id": "gen_31_covenant_pieces",
+   "book": "Genesis",
+   "refs": "15:1-21",
+   "title": "The covenant of the pieces: the vision, the stars, the rite, the decree, the grant (15:1-21)",
+   "genre": "covenant_vision_dialogue_and_rite"
+  },
+  {
+   "unit_id": "gen_32_hagar_angel",
+   "book": "Genesis",
+   "refs": "16:1-16",
+   "title": "Hagar: the maid given, the flight, the angel, the names (16:1-16)",
+   "genre": "household_crisis_and_annunciation_narrative"
+  },
+  {
+   "unit_id": "gen_33_shaddai_covenant_flesh",
+   "book": "Genesis",
+   "refs": "17:1-27",
+   "title": "El Shaddai: the renamings, the law of the flesh, the laugh, the selfsame day (17:1-27)",
+   "genre": "covenant_charter_and_law_installation"
+  },
+  {
+   "unit_id": "gen_34_mamre_laugh_plea",
+   "book": "Genesis",
+   "refs": "18:1-33",
+   "title": "The visitors at Mamre, the laugh within, the plea for Sodom (18:1-33)",
+   "genre": "theophany_hospitality_and_forensic_negotiation"
+  },
+  {
+   "unit_id": "gen_35_sodom_overthrow_cave",
+   "book": "Genesis",
+   "refs": "19:1-38",
+   "title": "The two angels, the overthrow of Sodom, the pillar, the cave (19:1-38)",
+   "genre": "rescue_narrative_judgment_execution_and_origin_coda"
+  },
+  {
+   "unit_id": "gen_36_gerar_dream_prophet",
+   "book": "Genesis",
+   "refs": "20:1-18",
+   "title": "Gerar: the dream-court, the prophet's prayer, the shut wombs (20:1-18)",
+   "genre": "dream_trial_and_intercession_narrative"
+  },
+  {
+   "unit_id": "gen_37_laughter_wilderness_oath",
+   "book": "Genesis",
+   "refs": "21:1-34",
+   "title": "The visitation, the expulsion, the well-oath (21:1-34)",
+   "genre": "birth_expulsion_and_treaty_narrative"
+  },
+  {
+   "unit_id": "gen_38_moriah_binding_oath",
+   "book": "Genesis",
+   "refs": "22:1-24",
+   "title": "The test, the binding, the oath (22:1-24)",
+   "genre": "trial_binding_and_oath_narrative"
+  },
+  {
+   "unit_id": "gen_39_machpelah_purchase",
+   "book": "Genesis",
+   "refs": "23:1-20",
+   "title": "Sarah's death and the Machpelah purchase (23:1-20)",
+   "genre": "death_mourning_and_purchase_narrative"
+  },
+  {
+   "unit_id": "gen_40_servant_oath_well",
+   "book": "Genesis",
+   "refs": "24:1-33",
+   "title": "The servant's oath and the well (24:1-33)",
+   "genre": null
+  },
+  {
+   "unit_id": "gen_41_retelling_release_meeting",
+   "book": "Genesis",
+   "refs": "24:34-67",
+   "title": "The retelling, the release, and the meeting (24:34-67)",
+   "genre": null
+  },
+  {
+   "unit_id": "gen_42_abraham_end_ishmael_line",
+   "book": "Genesis",
+   "refs": "25:1-18",
+   "title": "Abraham's end and Ishmael's line (25:1-18)",
+   "genre": null
+  },
+  {
+   "unit_id": "gen_43_isaac_twins_birthright",
+   "book": "Genesis",
+   "refs": "25:19-34",
+   "title": "Isaac's toledot: twins and the birthright (25:19-34)",
+   "genre": null
+  },
+  {
+   "unit_id": "gen_44_isaac_gerar_sister_expel",
+   "book": "Genesis",
+   "refs": "26:1-16",
+   "title": "Isaac in Gerar — sister-claim, decree, hundredfold, expulsion seam (26:1-16)",
+   "genre": null
+  },
+  {
+   "unit_id": "gen_45_wells_covenant_esau_wives",
+   "book": "Genesis",
+   "refs": "26:17-35",
+   "title": "Wells, namings, covenant swear, Shibah, Esau's wives (26:17-35)",
+   "genre": null
+  },
+  {
+   "unit_id": "gen_46_isaac_blessing_demandee_mismatch",
+   "book": "Genesis",
+   "refs": "27:1-40",
+   "title": "Isaac's hunt-command and the blessing — demandee-mismatch machine (27:1-40)",
+   "genre": null
+  },
+  {
+   "unit_id": "gen_47_grudge_flight_paddan_send",
+   "book": "Genesis",
+   "refs": "27:41-28:9",
+   "title": "Esau's grudge, Jacob's flight order, Rivqah's pressure — Paddan send (27:41-28:9)",
+   "genre": null
+  },
+  {
+   "unit_id": "gen_48_bethel_ladder_vow",
+   "book": "Genesis",
+   "refs": "28:10-22",
+   "title": "The Bethel ladder, the name write, and the first vow (28:10-22)",
+   "genre": null
+  },
+  {
+   "unit_id": "gen_49_well_stone_rachel_arrival",
+   "book": "Genesis",
+   "refs": "29:1-14",
+   "title": "The well, the great stone, and Rachel — arrival at Haran (29:1-14)",
+   "genre": null
+  },
+  {
+   "unit_id": "gen_50_wage_seven_years_switched_bride",
+   "book": "Genesis",
+   "refs": "29:15-30",
+   "title": "The wage, the seven years, and the switched bride (29:15-30)",
+   "genre": null
+  },
+  {
+   "unit_id": "gen_51_opened_womb_twelve_names",
+   "book": "Genesis",
+   "refs": "29:31-30:24",
+   "title": "The opened wombs and the twelve name-writes (29:31-30:24)",
+   "genre": null
+  },
+  {
+   "unit_id": "gen_52_send_me_speckled_wage_rods",
+   "book": "Genesis",
+   "refs": "30:25-43",
+   "title": "Send me away: the speckled wage and the peeled rods (30:25-43)",
+   "genre": null
+  },
+  {
+   "unit_id": "gen_53_flight_over_the_river",
+   "book": "Genesis",
+   "refs": "31:1-21",
+   "title": "The return-command and the flight over the river (31:1-21)",
+   "genre": null
+  },
+  {
+   "unit_id": "gen_54_pursuit_heap_two_tongues",
+   "book": "Genesis",
+   "refs": "31:22-54",
+   "title": "The pursuit, the search, and the heap of witness in two tongues (31:22-54)",
+   "genre": null
+  },
+  {
+   "unit_id": "gen_55_two_camps_wrestled_name",
+   "book": "Genesis",
+   "refs": "32:1-33",
+   "title": "The two camps, the gift, and the wrestled name (32:1-33)",
+   "genre": null
+  },
+  {
+   "unit_id": "gen_56_blessing_returned_first_altar",
+   "book": "Genesis",
+   "refs": "33:1-20",
+   "title": "The blessing returned and the first altar (33:1-20)",
+   "genre": null
+  },
+  {
+   "unit_id": "gen_57_deceit_at_the_gate",
+   "book": "Genesis",
+   "refs": "34:1-31",
+   "title": "Deceit at the gate: nine demands, none performed (34:1-31)",
+   "genre": null
+  },
+  {
+   "unit_id": "gen_58_israel_written_three_deaths",
+   "book": "Genesis",
+   "refs": "35:1-29",
+   "title": "Bethel again: Israel written, three deaths on the road (35:1-29)",
+   "genre": null
+  },
+  {
+   "unit_id": "gen_59_esau_edom_kings_ledger",
+   "book": "Genesis",
+   "refs": "36:1-43",
+   "title": "Esau is Edom: the ledger of chiefs and kings (36:1-43)",
+   "genre": null
+  },
+  {
+   "unit_id": "gen_60_dreamer_sold",
+   "book": "Genesis",
+   "refs": "37:1-36",
+   "title": "The dreamer sent, stripped, and sold (37:1-36)",
+   "genre": "narrative_fsm"
+  },
+  {
+   "unit_id": "gen_61_yehuda_tamar",
+   "book": "Genesis",
+   "refs": "38:1-30",
+   "title": "Judah and Tamar: the pledge that speaks (38:1-30)",
+   "genre": "narrative_fsm"
+  },
+  {
+   "unit_id": "gen_62_potifar_house",
+   "book": "Genesis",
+   "refs": "39:1-23",
+   "title": "Potiphar's house: the refusal on the chain (39:1-23)",
+   "genre": "narrative_fsm"
+  },
+  {
+   "unit_id": "gen_63_two_dreams_prison",
+   "book": "Genesis",
+   "refs": "40:1-23",
+   "title": "Two dreams in prison: the forgotten petition (40:1-23)",
+   "genre": "narrative_fsm"
+  },
+  {
+   "unit_id": "gen_64_pharaoh_dreams_rise",
+   "book": "Genesis",
+   "refs": "41:1-57",
+   "title": "Pharaoh's dreams and the rise of Joseph (41:1-57)",
+   "genre": "narrative_fsm"
+  },
+  {
+   "unit_id": "gen_65_first_descent",
+   "book": "Genesis",
+   "refs": "42:1-38",
+   "title": "The first descent: brothers before the governor (42:1-38)",
+   "genre": "narrative_fsm"
+  },
+  {
+   "unit_id": "gen_66_second_descent",
+   "book": "Genesis",
+   "refs": "43:1-34",
+   "title": "The second descent: Benjamin before Joseph (43:1-34)",
+   "genre": "narrative_fsm"
+  },
+  {
+   "unit_id": "gen_67_cup_and_surety",
+   "book": "Genesis",
+   "refs": "44:1-34",
+   "title": "The cup and the surety: Judah's speech (44:1-34)",
+   "genre": "narrative_fsm"
+  },
+  {
+   "unit_id": "gen_68_i_am_yosef",
+   "book": "Genesis",
+   "refs": "45:1-28",
+   "title": "I am Joseph: the unmasking (45:1-28)",
+   "genre": "narrative_fsm"
+  },
+  {
+   "unit_id": "gen_69_descent_seventy",
+   "book": "Genesis",
+   "refs": "46:1-34",
+   "title": "The descent and the seventy (46:1-34)",
+   "genre": "narrative_fsm"
+  },
+  {
+   "unit_id": "gen_70_goshen_and_the_fifth",
+   "book": "Genesis",
+   "refs": "47:1-31",
+   "title": "Goshen and the fifth (47:1-31)",
+   "genre": "narrative_fsm"
+  },
+  {
+   "unit_id": "gen_71_crossed_hands",
+   "book": "Genesis",
+   "refs": "48:1-22",
+   "title": "The crossed hands (48:1-22)",
+   "genre": "narrative_fsm"
+  },
+  {
+   "unit_id": "gen_72_testament_twelve",
+   "book": "Genesis",
+   "refs": "49:1-33",
+   "title": "The testament of the twelve (49:1-33)",
+   "genre": "narrative_fsm"
+  },
+  {
+   "unit_id": "gen_73_coffin_in_egypt",
+   "book": "Genesis",
+   "refs": "50:1-26",
+   "title": "A coffin in Egypt (50:1-26)",
+   "genre": "narrative_fsm"
+  },
+  {
+   "unit_id": "lev_04_inadvertence_case_tree",
+   "book": "Leviticus",
+   "refs": "4:1-35",
+   "title": "The inadvertence tree: four ranked cases, zero statutes (4:1-35) - the casuistic probe",
+   "genre": null
+  },
+  {
+   "unit_id": "lev_13_intake_quarantine",
+   "book": "Leviticus",
+   "refs": "13:1-8",
+   "title": "The skin-mark intake: case, handlers, quarantine loop (Lev 13:1-8) — first law unit",
+   "genre": "law_procedure"
+  },
+  {
+   "unit_id": "lev_19_holiness_duty_ledger",
+   "book": "Leviticus",
+   "refs": "19:1-37",
+   "title": "The holiness ledger: fifty-six statutes under one open card (19:1-37) - the apodictic probe",
+   "genre": null
+  }
+ ]
+}
