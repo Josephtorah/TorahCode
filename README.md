@@ -76,8 +76,8 @@ scans/      the evidence layer: coverage ledger · 100 witnessed-claim
 app/        the Tanakh-run web app (64 scenes, forms, replay)
 viz/        the inheritance visualizer
 sim/        the simulation sketch + its findings
-tools/      the source-shelf fetchers (to continue deriving) · the
-            gloss linter
+tools/      the source-shelf fetchers and the whole-work corpus mirror
+            (to continue deriving) · the gloss linter
 ```
 
 To **continue the derivation work** — scan and code new chapters — see

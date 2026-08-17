@@ -17,7 +17,7 @@ You do not need the whole library up front. A derivation consumes sources
 scan, derive. The original project's shelf grew to gigabytes only as
 months of such blocks accumulated.
 
-## The two commands
+## The three commands
 
 ```
 # step 1 — the link index: which sources speak about these verses?
@@ -25,15 +25,20 @@ python3 tools/fetch_links.py Exodus "21:1-11"
 
 # step 2 — the texts of those sources, by category
 python3 tools/fetch_texts.py Exodus.21.1 Exodus.21.11
+
+# step 3 (optional) — the whole-work corpus, for cross-book scans
+python3 tools/fetch_corpus.py
 ```
 
-Both write into `shelf/` (gitignored — the shelf is a cache; the permanent
-record of a derivation is its scan ledger, claims, and citations). Both are
-resumable: already-fetched files are skipped. And both observe the
-**politeness contract** hard-coded in them: sequential requests, half a
-second apart, small ranges per invocation, never a whole book at once.
-Sefaria provides this library as a public service — treat its servers
-accordingly.
+All three write into `shelf/` (gitignored — the shelf is a cache; the
+permanent record of a derivation is its scan ledger, claims, and
+citations). All are resumable: already-fetched files are skipped. And all
+observe the **politeness contract** hard-coded in them: sequential
+requests, half a second apart, small ranges per invocation. Sefaria
+provides this library as a public service — treat its servers
+accordingly. (The corpus builder is the one sanctioned exception to
+"never a whole book at once": it reads Sefaria's *bulk export bucket*,
+published exactly for whole-work downloads, not the live site API.)
 
 ## What the fetchers bring you, work by work
 
@@ -51,6 +56,22 @@ The default categories fetched map onto the chain of transmission like so:
 
 `all` as the third argument fetches every category Sefaria links to the
 verse — the widest possible scan base.
+
+## The whole-work corpus (step 3)
+
+Span fetching answers "what speaks about *these verses*?" Some questions
+run the other way — "where does *this phrase* occur across the whole
+canon?", "read this tractate end to end" — and for those
+`tools/fetch_corpus.py` mirrors complete works into `shelf/corpus/`, one
+JSON file per work per language: both Talmuds, the Mishnah, the Tosefta,
+Rambam's Mishneh Torah, the halakhic midrash (both Mekhiltas, Sifra,
+Sifrei), Bereshit and Vayikra Rabbah, Minchat Shai (the Masoretic
+apparatus), the Zohar ("Radiance"), Sefer Yetzirah ("Book of Formation" —
+both recensions, the letter-classification system compared against the
+word-tag layer), the JPS 1917 English Torah, Sefaria's cross-reference
+link shards, and Strong's Hebrew lexicon. `--plan` lists what would be
+fetched without downloading; `--only <substring>` restricts to matching
+works (for example `--only yetzirah`).
 
 ## Licensing of what you fetch
 

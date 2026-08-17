@@ -4,3 +4,6 @@ __pycache__/
 # the source-shelf cache built by tools/fetch_*.py — never committed;
 # the permanent record is the scan ledgers and citations in scans/
 shelf/
+
+# local scratch — never committed
+BriansTemp/
