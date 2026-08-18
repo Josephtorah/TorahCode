@@ -65,7 +65,8 @@ carries its English inline (enforced by `tools/gloss_lint.py`).
 
 ```
 docs/       process overview · chain of transmission · method laws ·
-            source manifest · simulation roadmap
+            source manifest · simulation roadmap · the Ark and the
+            Book (every Ark verse read through the project's lens)
 data/       tanakh.sqlite (Hebrew Bible + word tags) · lexicon.json
             (English gloss layers) · units_index.json (the 97 units)
 machines/   the Exodus 21 block machines + the assembled chapter, with
